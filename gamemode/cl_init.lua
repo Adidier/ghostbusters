@@ -27,7 +27,7 @@ function set_team()
     function HumanButton:DoClick()
         Frame:SetVisible( false ); 
         RunConsoleCommand("team_Humans") 
-    end
-    
+    end    
 end
+
 concommand.Add( "team_menu", set_team )
