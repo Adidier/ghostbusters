@@ -1,17 +1,12 @@
+
 if SERVER then
- 	AddCSLuaFile()
- 	AddCSLuaFile('cl_garrysGhostbusters.lua')
- 	AddCSLuaFile('sh_garrysGhostbusters.lua')
 
-    include('sh_garrysGhostbusters.lua')
- 	print("Garrys Ghostbusters loaded! ------")
-end
+else 
 
-if CLIENT then
-	include('cl_garrysGhostbusters.lua')
 end
 
 function GM:PlayerInitialSpawn( ply )
+	ply:ConCommand( "team_menu" ) 
 end
 
 function GM:SetupMove( ply, movedata )
