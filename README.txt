@@ -1,26 +1,30 @@
 Jugador Normal
-	Sobre-escudo
-	Serie Armas pistola / escopeta
-	vida 
-	misma zona de spawn
+	Sobre-escudo -DONE
+	Serie Armas pistola / escopeta -DONE
+	vida normal -TODO
+	misma zona de spawn -TODO
 	
 Fantasma
-	camuflaje activo "siempre" (solo no cuando se mueve y cuando ataca)
-	solo espada
-	normal
-	tiene distintas zonas
+	camuflaje activo "siempre" (solo no cuando se mueve y cuando ataca) -DONE
+	solo espada -DONE
+	vida normal -DONE
+	tiene distintas zonas -TODO
 
-Reloj 15-20
-El juego termina cuando todos son humanos o se acaba el tiempo.
+Reloj 15-20 se acaba el tiempo. -"DONE"
+El juego termina cuando todos son fantasmas --"DONE"
+regla de como los fantasmas matan --TEST  / DONE
 
--camuflaje activo "siempre"
--Reloj 15-20
--Si un fantasma muere se pasa al team humano
--fantasma no se vea
--probar con varios jugadores
--regla de como los fantasmas matan
--cargar armas Halo
--call of duty
+Tareas
+Muchachos
+- regla de como los fantasmas matan 
+
+Profe
+misma zona de spawn
+tiene distintas zonas
+cambiar el modelo de los humanos y fantasmas
+como subir el modo de juego al workshop
+
+
 
 
 
