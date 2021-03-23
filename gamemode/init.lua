@@ -30,7 +30,7 @@ function team_Humans( ply )
     ply:SetRunSpeed(600)
     ply:Give("weapon_shotgun")
     ply:SetHealth(100)
-    --ply:SetPos(Vector(1000,1000,0)) --TODO
+    ply:SetPos(Vector(1000,1000,0))
     ply:GiveAmmo( 20, "Buckshot", true )
     ply:RemoveEffects(EF_NODRAW)
 end 
@@ -45,9 +45,12 @@ function set_GhostParameters( ply)
 end
 
 function team_Ghosts( ply ) 
+    
     ply:SetTeam(2)
     ply:Spawn()
     set_GhostParameters(ply)
+   
+
     -- ply:SetPos(Vector(1000,1000,0)) --TODO
 end 
 
